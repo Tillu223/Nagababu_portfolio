@@ -40,8 +40,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # This should be the path to your build output directory.
-          # Common names are 'build', 'dist', or 'public'.
-          path: './build'
+          # The most common name is 'dist'. Check your project's config if this fails.
+          path: './dist'
 
   # Deployment job
   deploy:
