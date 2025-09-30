@@ -4,6 +4,8 @@ import { Award, ExternalLink } from "lucide-react";
 import certCSA from "@/assets/cert-csa.png";
 import certCAD from "@/assets/cert-cad.png";
 import certWipro from "@/assets/cert-wipro.png";
+import certEdxPython from "@/assets/cert-edxpython.png";
+import certGlobalCertification from "@/assets/cert-globalcertification.png";
 
 const Certifications = () => {
   const certifications = [
@@ -39,7 +41,7 @@ const Certifications = () => {
       issuer: "HarvardX",
       date: "2024",
       certNumber: "Verified",
-      image: null,
+      image: certEdxPython,
       description: "Python programming fundamentals, data structures, and problem-solving techniques",
       skills: ["Python", "Problem Solving", "Data Structures", "Algorithms"]
     },
@@ -48,7 +50,7 @@ const Certifications = () => {
       issuer: "Smartbridge",
       date: "April 2025",
       certNumber: "Internship Completion",
-      image: null,
+      image: certGlobalCertification,
       description: "Hands-on training on ServiceNow platform modules and certification preparation",
       skills: ["ServiceNow Platform", "ITSM", "Module Configuration", "Best Practices"]
     }

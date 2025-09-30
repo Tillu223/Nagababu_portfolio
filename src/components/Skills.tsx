@@ -41,9 +41,7 @@ const Skills = () => {
         "JavaScript (ES6)",
         "Java (v17)",
         "Python",
-        "C++",
-        "SQL",
-        "TypeScript"
+        "SQL"
       ]
     },
     {
@@ -54,10 +52,7 @@ const Skills = () => {
         "ReactJS",
         "Angular",
         "HTML5",
-        "CSS3",
-        "Tailwind CSS",
-        "Redux",
-        "Flexbox"
+        "CSS3"
       ]
     },
     {
@@ -67,7 +62,6 @@ const Skills = () => {
       skills: [
         "Node.js",
         "REST APIs",
-        "GraphQL",
         "Spring Framework",
         "Hibernate",
         "Express.js"
@@ -79,9 +73,6 @@ const Skills = () => {
       color: "text-primary",
       skills: [
         "MySQL",
-        "MS SQL",
-        "MongoDB",
-        "Schema Design",
         "Query Optimization"
       ]
     },
